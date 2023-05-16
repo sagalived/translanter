@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Traduções</title>
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.min.css">
+</head>
+
+<body>
+  <h2>Chaves</h2>
+  <table id="chavesTable">
+    <thead>
+      <tr>
+        <th>Chave</th>
+        <th>Valor (pt)</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <h2>Traduções</h2>
+  <div>
+    <button id="adicionarChave">Adicionar Chave</button>
+    <input type="text" id="novaChave" placeholder="Nova Chave">
+  </div>
+  <br>
+  <table id="portuguesTable">
+    <caption>Português</caption>
+    <thead>
+      <tr>
+        <th>Chave</th>
+        <th>Valor</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <table id="inglesTable">
+    <caption>Inglês</caption>
+    <thead>
+      <tr>
+        <th>Chave</th>
+        <th>Valor</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <table id="espanholTable">
+    <caption>Espanhol</caption>
+    <thead>
+      <tr>
+        <th>Chave</th>
+        <th>Valor</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <div>
+    <button id="adicionarIdioma">Adicionar Idioma</button>
+    <input type="text" id="novoIdioma" placeholder="Novo Idioma">
+  </div>
+
+  <button id="salvar">Salvar</button>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
+  <script src="meu-plugin-de-traducao.js"></script>
+</body>
+
+</html>
